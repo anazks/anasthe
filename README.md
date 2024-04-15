@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+1) install nodejs from https://nodejs.org/en
+2) open folder and type npm install in terminal
+3) after compleating npm install npm start
+4) project will automatically open in browser
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
