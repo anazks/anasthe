@@ -1,0 +1,28 @@
+.navBar{
+    width: 70%;
+    height: 100px;
+    background-color: rgb(241, 50, 12);
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.navBar DIV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.battery{
+    font-size: 50px;
+}
+.logout{
+    color: white;
+    border: none;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}

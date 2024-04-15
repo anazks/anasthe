@@ -1,0 +1,170 @@
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.form{
+    width: 40%;
+    height: 220px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btnSubmit{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(222, 31, 31);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.main form{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.main form input{
+    height: 25px;
+    padding: 5px;
+}
+.Notification {
+    animation: blink 1s infinite;
+}
+
+.Notification{
+    width: 50%;
+    height: 40px;
+    background-color: red;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Notification span{
+    color: white;
+}
+.closeBtn{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.temp{
+    width: 30%;
+    height: 270px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    color: white;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.rate{
+    color: white;
+    width: 30%;
+    height: 270px;
+    margin: auto;
+    background-color: rgb(28, 27, 27);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.temp span{
+    font-size: 19px;
+    font-style: bold;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.hearRate{
+    background-color: black;
+    background-size: cover;
+    background-image: url(https://www.coheedandcambria.com/sites/g/files/g2000013396/files/2022-01/heartbeat_1_Regular.gif);
+}
+.overHeat{
+    width: 70%;
+    height: 120px;
+    background-color: red;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.anlyze{
+    width: 50px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+}
+.main div{
+    margin-top: 20px !important;
+}
+.temprature{
+    width:90%;
+    height: 200px !important;
+    background-color: none !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.temprature .items{
+    padding: 10px;
+    background-color: black;
+    width:100px;
+    height: 100px;
+}
+.form{
+    background-color: black;
+}
+.innerBox {
+    background-color: black;
+    color: white;
+}
+.proceed{
+    height: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-around;
+}
+.contents span{
+    color: green;
+    font-size: 20px;
+    font-style: bold;
+}
